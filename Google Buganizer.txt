@@ -1,0 +1,15 @@
+
+ POST /action/issues/bulk_edit HTTP/1.1
+{
+   "issueIds":[
+      67111111,
+      67111112
+   ],
+   "actions":[
+      {
+         "fieldName":"ccs",
+         "value":"test@example.com",
+         "actionType":"REMOVE"
+      }
+   ]
+}
